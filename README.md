@@ -22,7 +22,7 @@ NEXTAUTH_SECRET="your-nextauth-secret"
 NEXTAUTH_URL="http://localhost:3000"
 gemini-api-key="your-gemini-api-key"
 ```
-----------update API key in code at 
+----------update API key in code at legallaw_AI/lib/ai-services.ts
 
 
 4. Initialize the database:
