@@ -2,7 +2,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai"
 
 // Initialize the Google Generative AI with your API key
-const genAI = new GoogleGenerativeAI("..............................")
+const genAI = new GoogleGenerativeAI("AIzaSyDq1NDV9R4QkoDTyVOog5NPJ9EzpbGppZ0")
 const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" })
 
 export async function analyzeDocument(text: string, type: "general" | "risk" = "general") {
